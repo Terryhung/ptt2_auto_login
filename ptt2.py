@@ -13,6 +13,7 @@ check_double_account = "重複登入".decode('utf-8')
 check_rewrite = "文章尚未完成".decode('utf-8')
 check_content_1 = "瀏覽".decode('utf-8')
 check_waterball = "無訊息記錄".decode('utf-8')
+
 def login(account, password):
     tn.write((account+"\r\n").encode('big5'))
     time.sleep(1)
